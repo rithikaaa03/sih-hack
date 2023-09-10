@@ -1,0 +1,205 @@
+.wireframe-10-child {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1; /* Send the image to the background */
+  object-fit: cover;
+}
+
+.about-us,
+.solution,
+.team-name,
+.product-name {
+  position: absolute;
+  top: 40px;
+  left: 75px;
+  font-weight: 600;
+  width: 220px;
+  height: 130px;
+  justify-content: center;
+  display:flex;
+  
+
+}
+.about-us,
+.solution
+{
+  top: 40px;
+  left: 560px;
+  width: 240px;
+}
+.solution {
+  left: 760px;
+  width: 223px;
+  position:relative;
+}
+.about-us1 {
+  margin: 0;
+  font-size: 40px;
+  position:relative;
+}
+.welcome-to-our-revolutionary-s {
+  margin: 0;
+  font-size: 40px;
+  position:relative;
+}
+.blank-line {
+  margin: 0;
+  font-weight: 600;
+}
+.indias-vast-botanical {
+  margin: 0;
+  top:20px;
+  position:relative;
+  font-size: 30px;
+  font-weight: 300;
+  width:800px;
+}
+.welcome-to-our-container {
+  position: relative;
+  top: 10px;
+  left: 82px;
+  display: inline-block;
+  width: 950px;
+  height: 755px;
+  font-size: var(--font-size-61xl);
+}
+.blank-line1 {
+  margin: 0;
+  font-weight: 300;
+}
+.about-us-were-container {
+  position: relative;
+  top: 40px;
+  left: 400px;
+  display: inline-block;
+  width: 1000px;
+  height: 961px;
+  font-size: var(--font-size-36xl);
+}
+.frame-child {
+  top: 1101px;
+  left: 88px;
+  border-radius: 45px;
+  background-color: #1e2c21;
+  width: 450px;
+  height: 152px;
+}
+.div,
+.frame-child,
+.solution1 {
+  position: absolute;
+}
+
+.solution1 {
+  top: 500px;
+  left: 90px;
+  font-size: 40px;
+  color: #fefbfb;
+  display: inline-block;
+  width: 300px;
+  height: 85px;
+  border-radius:45px;
+  background: #1E2C21;
+  cursor:pointer;
+
+}
+.solution1:hover{
+  background-color: #088178;
+  color:#000;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+.div {
+  top: -443px;
+  left: -1325px;
+  width: 3000px;
+  height: 2000px;
+}
+#fr {
+  top: 220px;
+  left: 55px;
+  position:absolute;
+  border-radius: 9999px;
+  background: linear-gradient(226.18deg, #9cc485, #d5eec6 100%);
+  box-shadow: 20px 14px 124px rgba(0, 0, 0, 0.18) inset;
+  width: 300px;
+  height: 300px;
+}
+
+.removebg-preview-1-icon {
+  position: absolute;
+  top: 27px;
+  left: 1405px;
+  width: 869px;
+  height: 1442px;
+  object-fit: cover;
+}
+.FAQs,
+.how-it-works {
+  position: absolute;
+  top: 40px;
+  left: 930px;
+  font-weight: 600;
+  width: 359px;
+  height: 130px;
+  display:flex;
+}
+.FAQs {
+  left: 1250px;
+  width: 148px;
+}
+.microsoftteams-image-59-remo-icon {
+  position: absolute;
+  top: 230px;
+  left:10px;
+
+  right:1800px;
+  width: 400px;
+  height: 370px;
+  object-fit: cover;
+}
+
+.team-name-parent,
+.product-name-parent {
+  position: relative;
+  z-index: 1;
+  width: 1420px;
+  height: 650px;
+
+  top: 50px;
+  left: 50px;
+  right: 10px;
+  bottom: 50px;
+  border-radius: 60px;
+  background-color: #d7efd8;
+  border: 5px solid var(--color-black);
+  box-sizing: border-box;
+
+  overflow: hidden;
+}
+.wireframe-10 {
+  position: relative;
+  width: 100%;
+  height: 710px;
+  overflow: hidden;
+  background-image: url(./public/wireframe--10@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  text-align: left;
+  font-size: var(--font-size-31xl);
+  color: var(--color-black);
+  font-family: var(--font-poppins);
+}
+#header{
+  display:flex;
+  justify-content:space-between;
+
+}
+#header1{
+  display:flex;  
+  justify-content:center;
+
+}
