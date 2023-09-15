@@ -10,6 +10,9 @@ body {
     /* font sizes */
     --font-size-31xl: 28px;
     --font-size-61xl: 5px;
+    --font-andada-pro: "Andada Pro";
+    --font-courgette: Courgette;
+    --font-poppins: Poppins;
   
     /* Colors */
     --color-black: #000;

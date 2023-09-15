@@ -43,7 +43,7 @@
 .welcome-to-our-revolutionary-s {
   margin: 0;
   font-size: 40px;
-  position:relative;
+  
 }
 .blank-line {
   margin: 0;
@@ -58,8 +58,8 @@
   width:800px;
 }
 .welcome-to-our-container {
-  position: relative;
-  top: 10px;
+  position: absolute;
+  top: 150px;
   left: 82px;
   display: inline-block;
   width: 950px;
@@ -72,7 +72,7 @@
 }
 .about-us-were-container {
   position: relative;
-  top: 40px;
+  top: 200px;
   left: 400px;
   display: inline-block;
   width: 1000px;
@@ -129,12 +129,15 @@
 }
 
 .removebg-preview-1-icon {
+ 
+
+  z-index:-1;
+  top:-130px;
+  left: 800px;
+  width: 600px;
+  height: 820px;
+  overflow:hidden;
   position: absolute;
-  top: 27px;
-  left: 1405px;
-  width: 869px;
-  height: 1442px;
-  object-fit: cover;
 }
 .FAQs,
 .how-it-works {
@@ -162,7 +165,8 @@
 }
 
 .team-name-parent,
-.product-name-parent {
+.product-name-parent,
+.union-parent {
   position: relative;
   z-index: 1;
   width: 1420px;
@@ -201,5 +205,71 @@
 #header1{
   display:flex;  
   justify-content:center;
+  position:absolute;
 
+}
+.image-1-icon{
+  position:absolute;
+  left:40px;
+  top:20px;
+
+}
+.turning-leaves-into {
+  margin: 0;
+  position: absolute;
+  top: 80px;
+  left: 2px;
+  font-family: var(--font-courgette);
+  text-align: center;
+  display: inline-block;
+  width: 643px;
+  height: 35px;
+  font-size:25px;
+}
+.ayurvision {
+  position: absolute;
+  top: 40px;
+  left: 2px;
+  font-size: 35px;
+  font-family: var(--font-andada-pro);
+  text-align: center;
+  display: inline-block;
+  width: 651px;
+  height: 110px;
+}
+.faqimg{
+  position: absolute;
+  top: 230px;
+  left:10px;
+
+  right:1800px;
+  width: 400px;
+  height: 370px;
+  object-fit: cover;
+}
+.faqhead{
+    margin: 0;
+    font-size: 40px;
+    top:10px;
+    position:relative;
+    
+}
+.b{
+  
+  font-size:17px;
+}
+
+.faq-container {
+  position: relative;
+  top: 125px;
+  left: 400px;
+  display: inline-block;
+  width: 1000px;
+  height: 100px;
+  font-size: var(--font-size-36xl);
+}
+#how{
+  height:360px;
+  width:350px;
+  top:200px;
 }
